@@ -1,0 +1,13 @@
+.site-shell { min-height: 100vh; }
+.site-header { position: absolute; inset: 0 5% auto; z-index: 5; display: flex; align-items: center; justify-content: space-between; min-height: 88px; gap: 20px; border-bottom: 1px solid #ffffff2b; color: #f7f5ed; }
+.brand { text-decoration: none; display: flex; flex-direction: column; font-size: 24px; font-weight: 650; letter-spacing: -.055em; line-height: 1; }
+.brand span { font-size: 8px; text-transform: uppercase; font-weight: 400; letter-spacing: .35em; margin-top: 7px; }
+.site-nav { display: flex; align-items: center; gap: 32px; }
+.site-nav a { color: #f7f5edbd; font-size: 11px; text-decoration: none; min-height: 44px; display: flex; align-items: center; }
+.site-nav a:last-child { border: 1px solid #ffffff4d; min-height: 35px; padding: 0 18px; border-radius: 30px; }
+.site-nav a:hover { color: #e7cba3; }
+.site-header a:focus-visible { outline: 2px solid #dfc39c; outline-offset: 5px; }
+.site-main { width: 100%; }
+.site-footer { width: min(100% - 3rem, var(--page-width)); margin-inline: auto; border-top: 1px solid var(--color-line); padding-block: 1.5rem; }
+.site-footer p { font-size: 11px; margin: 0; }
+@media (max-width: 600px) { .site-header { inset-inline: 6%; min-height: 76px; } .brand { font-size: 21px; } .site-nav { gap: 16px; } .site-nav a { font-size: 10px; } .site-nav a[href="#como-trabajamos"] { display: none; } .site-nav a:last-child { padding: 0 12px; } }

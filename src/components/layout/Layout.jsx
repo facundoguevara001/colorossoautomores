@@ -1,0 +1,2 @@
+import React from "react";
+export default function Layout({ children }) { return <div className="site-shell"><header className="site-header"><a className="brand" href="#inicio">Colorosso <span>Automotores</span></a><nav className="site-nav" aria-label="Navegación principal"><a href="#unidades">Unidades</a><a href="#como-trabajamos">Cómo trabajamos</a><a href="#contacto">Contacto</a></nav></header><main className="site-main">{children}</main><footer className="site-footer"><p>Colorosso Automotores · Huanguelén y la zona</p></footer></div>; }

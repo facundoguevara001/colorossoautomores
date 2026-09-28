@@ -1,0 +1,37 @@
+{
+  "signature": "4d280819d400d4cff954253bc5474a3b0881b5ced338987ca396bcb3c61c705b",
+  "fps": 60,
+  "seconds": 24,
+  "frames": 1440,
+  "variants": [
+    {
+      "name": "desktop",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "name": "mobile",
+      "width": 648,
+      "height": 1152
+    }
+  ],
+  "renderedAt": "2026-09-28T04:09:31.403Z",
+  "encoding": {
+    "codec": "H.264",
+    "crf": 23,
+    "keyframeInterval": 12,
+    "bFrames": 0,
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "maxrateMbps": {
+      "desktop": 6,
+      "mobile": 3
+    }
+  },
+  "files": {
+    "desktop.mp4": 18593208,
+    "mobile.mp4": 9155825,
+    "desktop-poster.jpg": 337771,
+    "mobile-poster.jpg": 89213
+  }
+}

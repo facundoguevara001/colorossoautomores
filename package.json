@@ -1,0 +1,23 @@
+{
+  "name": "colorosso-automotores-catalogo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --configLoader native",
+    "build": "vite build --configLoader native",
+    "preview": "vite preview --configLoader native",
+    "generate:catalog": "node scripts/generateProducts.cjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "vite": "^7.3.6",
+    "xlsx": "^0.18.5"
+  }
+}

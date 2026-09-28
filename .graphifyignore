@@ -1,0 +1,10 @@
+# Alcance acordado: codigo, arquitectura, configuracion y documentacion tecnica.
+/.tools/
+/assets/
+/autos contexto/
+/public/
+/node_modules/
+/dist/
+/graphify-out/
+/AGENTS.md
+/package-lock.json

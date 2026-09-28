@@ -1,0 +1,11 @@
+.git/
+.tools/
+.venv/
+node_modules/
+dist/
+assets/
+autos contexto/
+graphify-out/
+cinematic-render.html
+*.blend
+*.blend[0-9]*

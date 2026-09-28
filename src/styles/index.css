@@ -1,0 +1,7 @@
+/* Punto de entrada: importar aquí las capas, nunca estilos de una página suelta. */
+@import "./foundation/tokens.css";
+@import "./foundation/base.css";
+@import "./layout/site-shell.css";
+@import "./components/buttons.css";
+@import "./components/catalog.css";
+@import "./pages/home-new.css";

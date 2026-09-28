@@ -1,0 +1,105 @@
+.landing-page { overflow: clip; }
+.dealership-intro { --journey: 0; --opening-opacity: 1; --arrival-opacity: 0; height: 480vh; position: relative; background: #161b1b; color: #fff; }
+.dealership-intro__sticky { height: 100vh; height: 100svh; overflow: hidden; position: sticky; top: 0; }
+.dealership-scene, .dealership-intro__poster { inset: 0; position: absolute; width: 100%; height: 100%; }
+.dealership-intro__poster { object-fit: cover; }
+.dealership-video { object-fit: cover; pointer-events: none; }
+.dealership-scene canvas { height: 100% !important; width: 100% !important; }
+.dealership-intro__vignette { background: linear-gradient(90deg, rgb(9 17 18 / 68%), transparent 75%), linear-gradient(0deg, rgb(9 17 18 / 90%), transparent 28%, transparent 77%, rgb(9 17 18 / 60%)); inset: 0; pointer-events: none; position: absolute; }
+.cinema-topline { position: absolute; top: 116px; left: 5%; right: 5%; display: flex; justify-content: space-between; color: #f4f2e5b5; font-size: 9px; font-weight: 500; letter-spacing: .19em; }
+.dealership-intro__copy { left: 7%; position: absolute; top: 44%; transform: translateY(-20%); opacity: var(--opening-opacity); max-width: 680px; }
+.dealership-intro__copy .eyebrow, .cinema-arrival .eyebrow { color: #e3c8a1; font-size: 10px; font-weight: 500; letter-spacing: .22em; margin-bottom: 24px; display: flex; align-items: center; gap: 10px; }
+.dealership-intro__copy .eyebrow span { height: 5px; width: 5px; background: #c8aa7b; border-radius: 50%; }
+.dealership-intro__copy h1 { color: #f7f5ed; font-size: clamp(3rem, 5.8vw, 6.3rem); font-weight: 400; line-height: 1.02; letter-spacing: -.055em; margin-bottom: 24px; }
+.dealership-intro__copy h1 em, .cinema-arrival h2 em { color: #dfc39c; font-weight: 400; }
+.dealership-intro__copy > p:not(.eyebrow) { color: #f0efe7be; font-size: 14px; line-height: 1.8; }
+.cinema-link { display: inline-flex; align-items: center; gap: 40px; margin-top: 12px; min-height: 44px; padding-bottom: 5px; border-bottom: 1px solid #f5f2e573; color: #f9f6ed; font-size: 12px; text-decoration: none; transition: color .2s, border-color .2s; }
+.cinema-link span { font-size: 23px; font-weight: 300; }
+.cinema-link:hover { color: #dfc39c; border-color: #dfc39c; }
+.cinema-arrival { position: absolute; left: 7%; top: 39%; opacity: var(--arrival-opacity); }
+.cinema-arrival h2 { color: #f7f5ed; font-size: clamp(2.7rem, 4.6vw, 5rem); font-weight: 400; }
+.cinema-side-note { position: absolute; right: 32px; top: 47%; writing-mode: vertical-rl; font-size: 9px; letter-spacing: .24em; color: #ffffff70; }
+.cinema-bottom { position: absolute; left: 5%; right: 5%; bottom: 37px; display: flex; align-items: center; justify-content: space-between; gap: 24px; border-top: 1px solid #ffffff25; padding-top: 21px; }
+.cinema-chapters { display: flex; gap: clamp(18px, 3vw, 50px); }
+.cinema-chapters button, .cinema-play { font: inherit; background: transparent; border: 0; color: #fff8; cursor: pointer; min-height: 44px; padding: 0; display: flex; gap: 10px; align-items: center; font-size: 11px; transition: color .2s; }
+.cinema-chapters button > span:first-child { font-size: 9px; color: #ffffff60; }
+.cinema-chapters button[aria-current], .cinema-chapters button:hover { color: #f9f6ed; }
+.cinema-chapters button[aria-current] > span:first-child { color: #dfc39c; }
+.cinema-actions { display: flex; gap: 28px; align-items: center; }
+.cinema-play { color: #f9f6ed; }
+.cinema-play > span:first-child { border: 1px solid #ffffff50; width: 34px; height: 34px; display: grid; place-items: center; border-radius: 50%; font-size: 17px; }
+.cinema-play:disabled { opacity: .35; cursor: wait; }
+.cinema-skip { color: #ffffffa6; font-size: 11px; text-decoration: none; display: flex; align-items: center; gap: 16px; min-height: 44px; }
+.cinema-skip:hover { color: #fff; }
+.cinema-progress { position: absolute; inset: auto 0 0; height: 2px; background: #ffffff20; }
+.cinema-progress span { background: #d7b98d; display: block; height: 100%; transform-origin: left; transform: scaleX(var(--journey)); }
+.cinema-status { position: absolute; top: 146px; left: 5%; font-size: 10px; color: #eee9dc; }
+.cinema-static-label { font-size: 11px; letter-spacing: .08em; }
+.dealership-intro--static { height: 100vh; height: 100svh; }
+.dealership-intro--static .cinema-arrival { display: none; }
+.landing-section { width: min(100% - 3rem, var(--page-width)); margin-inline: auto; padding-block: clamp(5rem, 10vw, 9rem); scroll-margin-top: 36px; }
+.section-heading--wide { max-width: 43rem; margin-bottom: 3rem; }
+.section-heading--wide > p:last-child { font-size: 1rem; max-width: 34rem; }
+.landing-story { align-items: start; border-top: 1px solid var(--color-line); display: grid; gap: clamp(3rem, 10vw, 9rem); grid-template-columns: 1fr 1fr; }
+.landing-story h2 { max-width: 29rem; font-weight: 400; }
+.landing-steps { list-style: none; margin: 0; padding: 0; }
+.landing-steps li { border-top: 1px solid var(--color-line); color: var(--color-muted); display: grid; font-size: 1rem; gap: 1.2rem; grid-template-columns: 2.5rem 1fr; line-height: 1.5; padding: 1.2rem 0; }
+.landing-steps span { color: var(--color-accent); font-size: .75rem; letter-spacing: .08em; padding-top: .3rem; }
+.landing-contact { background: var(--color-ink); color: white; margin: 0 auto 5rem; width: min(100% - 3rem, var(--page-width)); padding: clamp(2rem, 6vw, 5rem); }
+.landing-contact .eyebrow { color: #dfc39c; }
+.landing-contact h2 { font-size: clamp(2.3rem, 5vw, 4.4rem); font-weight: 400; max-width: 40rem; }
+.landing-contact p:not(.eyebrow) { color: #ffffffb8; margin-bottom: var(--space-3); }
+:is(.cinema-chapters button, .cinema-play, .cinema-link, .cinema-skip):focus-visible { outline: 2px solid #dfc39c; outline-offset: 7px; }
+@media (max-width: 760px) {
+  .dealership-intro { height: 390vh; }
+  .dealership-intro--static { height: 100svh; }
+  .cinema-topline { top: 98px; left: 6%; font-size: 8px; }
+  .cinema-topline__right, .cinema-side-note { display: none; }
+  .dealership-intro__copy { top: auto; bottom: 185px; transform: none; left: 7%; right: 5%; }
+  .dealership-intro__copy h1 { font-size: clamp(2.7rem, 10.8vw, 4.6rem); }
+  .dealership-intro__copy .eyebrow { font-size: 9px; margin-bottom: 16px; }
+  .dealership-intro__copy > p:not(.eyebrow) { font-size: 12px; }
+  .cinema-link { margin-top: 0; }
+  .cinema-bottom { bottom: 22px; display: grid; gap: 8px; padding-top: 12px; }
+  .cinema-chapters { justify-content: space-between; width: 100%; gap: 20px; }
+  .cinema-chapters button { font-size: 10px; }
+  .cinema-actions { justify-content: space-between; }
+  .cinema-arrival { top: auto; bottom: 190px; right: 5%; }
+  .cinema-arrival h2 { font-size: clamp(2.7rem, 10vw, 4.5rem); }
+  .cinema-status { top: 120px; left: 6%; }
+  .landing-story { grid-template-columns: 1fr; }
+}
+@media (max-height: 580px) and (min-width: 761px) {
+  .cinema-topline { display: none; }
+  .dealership-intro__copy { top: 32%; }
+  .dealership-intro__copy h1 { font-size: 3rem; }
+  .dealership-intro__copy .eyebrow { margin-bottom: 8px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
+.dealership-scene { opacity: 0; transition: opacity .8s ease; }
+.is-ready .dealership-scene { opacity: 1; }
+@media (min-width: 761px) {
+  .dealership-intro__copy { top: auto; bottom: 22%; transform: none; }
+  .dealership-intro__copy h1 { font-size: clamp(3rem, 5vw, 5.4rem); }
+}
+.vehicle-grid ul { grid-template-columns: repeat(auto-fit, minmax(min(100%, 310px), 1fr)); gap: 2rem; }
+.vehicle-card { border-radius: 0; box-shadow: none; background: transparent; }
+.vehicle-card__image { aspect-ratio: 16 / 11; }
+.vehicle-card__content { padding: 1.5rem 0; }
+.vehicle-card__content h3 { font-weight: 500; max-width: 24rem; line-height: 1.25; }
+.vehicle-card__eyebrow { font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
+.vehicle-card__availability { border-bottom: 1px solid var(--color-line); width: 100%; padding-bottom: 1.2rem; font-size: 12px; }
+.vehicle-card .button { background: transparent; color: var(--color-ink); border: 1px solid var(--color-line); border-radius: 0; font-size: 11px; font-weight: 500; }
+.vehicle-card .button:hover { background: var(--color-ink); color: white; }
+.landing-section--inventory h2 { font-weight: 400; }
+.cinema-arrival--mustang { top: auto; bottom: 120px; }
+.cinema-arrival--mustang h2 { font-size: clamp(2rem, 3vw, 3.3rem); margin-bottom: 8px; }
+.cinema-arrival--mustang .eyebrow { margin-bottom: 10px; }
+@media (max-width: 760px) {
+  .cinema-arrival--mustang { bottom: 165px; }
+  .cinema-arrival--mustang .eyebrow { font-size: 8px; letter-spacing: .14em; }
+  .cinema-arrival--mustang h2 { font-size: 2rem; margin-bottom: 8px; }
+}
