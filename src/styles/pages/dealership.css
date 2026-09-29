@@ -1,0 +1,78 @@
+/* Open editorial composition after the cinematic. */
+.site-shell { position: relative; isolation: isolate; background: #293334; color: #f7f5ed; }
+/* A browser-ready projection of the same HDR used by the cinematic. */
+.site-shell::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, rgb(9 17 18 / 32%), transparent 75%),
+    linear-gradient(180deg, rgb(9 17 18 / 56%), rgb(9 17 18 / 48%)),
+    url("/images/colorosso-morning-sky.png?v=clouds-2") center / cover no-repeat;
+  filter: saturate(.45);
+}
+.dealership-content { color: #f7f5ed; background: transparent; }
+.editorial-section { width: min(88%, 1320px); margin-inline: auto; scroll-margin-top: 48px; }
+.dealership-content h2 { font-family: var(--font-sans); font-weight: 400; letter-spacing: -.055em; line-height: 1.12; }
+.dealership-content p { color: inherit; }
+.editorial-label { margin-bottom: 28px; font-size: 10px; line-height: 1.5; letter-spacing: .18em; text-transform: uppercase; font-weight: 500; }
+.welcome { padding-top: clamp(90px, 11vw, 170px); }
+.welcome__heading { display: grid; grid-template-columns: 1.05fr 1fr; gap: clamp(40px, 9vw, 150px); align-items: start; margin-bottom: clamp(56px, 7vw, 105px); }
+.welcome h2 { font-size: clamp(2.6rem, 4.7vw, 5rem); margin-bottom: 0; }
+.reading-copy { font-size: clamp(1.2rem, 1.8vw, 1.75rem); line-height: 1.65; letter-spacing: -.025em; margin: 40px 0 0; max-width: 34rem; }
+.reading-word { opacity: var(--word-opacity, 1); }
+.dealership-content figure { margin: 0; }
+.photo-window { overflow: hidden; }
+.photo-window img { width: 100%; height: 100%; object-fit: cover; }
+.welcome__photo .photo-window { aspect-ratio: 1.85; }
+.welcome__photo img { object-position: center 45%; transform: scale(calc(1.035 - var(--reveal, 1) * .035)); }
+.dealership-content figcaption { display: flex; justify-content: space-between; gap: 20px; padding-top: 18px; font-size: 10px; line-height: 1.6; color: #eeeae2; letter-spacing: .035em; }
+.history { display: grid; grid-template-columns: 1.1fr .85fr; gap: clamp(60px, 12vw, 190px); padding-block: clamp(110px, 14vw, 210px); align-items: start; }
+.history h2 { font-size: clamp(2.3rem, 3.4vw, 3.7rem); margin-bottom: 30px; }
+.history__description { font-size: clamp(1.15rem, 1.65vw, 1.5rem); line-height: 1.7; letter-spacing: -.02em; }
+.history__approach { margin-top: clamp(64px, 8vw, 120px); max-width: 31rem; scroll-margin-top: 48px; }
+.history__approach .editorial-label { margin-bottom: 20px; }
+.history__statement { font-size: clamp(1.5rem, 2.2vw, 2.2rem); line-height: 1.3; letter-spacing: -.04em; margin-bottom: 20px; }
+.history__approach > p:last-child { color: #eeeae2; font-size: 15px; line-height: 1.85; }
+.dealership-content .history__photo { margin-top: 90px; }
+.history__photo .photo-window { aspect-ratio: 4 / 5; }
+.history__placeholder { min-height: 420px; aspect-ratio: 4 / 5; display: flex; flex-direction: column; justify-content: space-between; padding-block: 30px; border-block: 1px solid rgb(247 245 237 / 32%); }
+.history__placeholder .editorial-label { color: #eeeae2; }
+.history__placeholder-title { font-size: clamp(2.8rem, 4.5vw, 4.8rem); font-weight: 300; letter-spacing: -.06em; line-height: 1.08; color: #e0ded5; }
+.history__placeholder-note { font-size: 11px; color: #eeeae2; max-width: 190px; line-height: 1.7; }
+.landing-contact { padding-block: clamp(65px, 8vw, 120px) clamp(90px, 11vw, 170px); border-top: 1px solid rgb(247 245 237 / 32%); }
+.landing-contact h2 { font-size: clamp(2.6rem, 5.9vw, 6rem); max-width: 1100px; margin-bottom: 55px; }
+.landing-contact__bottom { display: flex; align-items: center; justify-content: space-between; gap: 36px; }
+.landing-contact__bottom p { font-size: 15px; margin: 0; }
+.contact-link { display: inline-flex; justify-content: space-between; align-items: center; gap: 48px; min-height: 52px; padding-block: 12px; border-bottom: 1px solid #f7f5ed; font-size: 14px; text-decoration: none; flex-shrink: 0; }
+.contact-link span { font-size: 26px; transition: transform .25s ease; }
+.contact-link:hover span { transform: translate(3px, -3px); }
+.contact-link:focus-visible { outline: 2px solid #f7f5ed; outline-offset: 7px; }
+.site-footer { border-color: rgb(247 245 237 / 32%); width: min(88%, 1320px); padding-block: 28px; }
+.site-footer p { color: #eeeae2; }
+[data-reveal] { opacity: var(--reveal, 1); transform: translate3d(0, calc((1 - var(--reveal, 1)) * 56px), 0); }
+[data-reveal]:focus-within { opacity: 1; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+@media (max-width: 760px) {
+  .welcome__heading, .history { grid-template-columns: 1fr; gap: 36px; }
+  .welcome h2 { font-size: clamp(2.5rem, 9vw, 4rem); }
+  .reading-copy { margin: 0; max-width: none; font-size: 1.2rem; }
+  .welcome__photo .photo-window { aspect-ratio: 1.12; }
+  .welcome__photo figcaption span:last-child { display: none; }
+  .history { padding-block: 100px; gap: 52px; }
+  .dealership-content .history__photo { margin: 0; width: 88%; justify-self: end; }
+  .history__placeholder { min-height: 320px; }
+  .history__approach { margin-top: 55px; }
+  .landing-contact__bottom { align-items: start; flex-direction: column; gap: 24px; }
+  .landing-contact h2 { margin-bottom: 32px; }
+  .site-nav a[href="#historia"] { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal], .reading-word { opacity: 1 !important; transform: none !important; }
+  .welcome__photo img, .contact-link span { transform: none !important; }
+}
+@media print {
+  [data-reveal], .reading-word { opacity: 1 !important; transform: none !important; }
+}

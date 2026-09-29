@@ -10,4 +10,4 @@
 .site-main { width: 100%; }
 .site-footer { width: min(100% - 3rem, var(--page-width)); margin-inline: auto; border-top: 1px solid var(--color-line); padding-block: 1.5rem; }
 .site-footer p { font-size: 11px; margin: 0; }
-@media (max-width: 600px) { .site-header { inset-inline: 6%; min-height: 76px; } .brand { font-size: 21px; } .site-nav { gap: 16px; } .site-nav a { font-size: 10px; } .site-nav a[href="#como-trabajamos"] { display: none; } .site-nav a:last-child { padding: 0 12px; } }
+@media (max-width: 600px) { .site-header { inset-inline: 6%; min-height: 76px; } .brand { font-size: 21px; } .site-nav { gap: 16px; } .site-nav a { font-size: 10px; } .site-nav a[href="#historia"] { display: none; } .site-nav a:last-child { padding: 0 12px; } }

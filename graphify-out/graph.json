@@ -133,43 +133,43 @@
       "file_type": "code",
       "norm_label": "app()",
       "source_file": "src/App.jsx",
-      "source_location": "L5"
-    },
-    {
-      "id": "src_components_catalog_productcard_productcard",
-      "label": "ProductCard()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "productcard()",
-      "source_file": "src/components/catalog/ProductCard.jsx",
       "source_location": "L4"
     },
     {
-      "id": "src_components_catalog_productgrid_productgrid",
-      "label": "ProductGrid()",
+      "id": "src_components_landing3d_dealershipintro_dealershipintro",
+      "label": "DealershipIntro()",
       "_callable": true,
       "_origin": "ast",
       "community": 2,
       "community_name": "react",
       "file_type": "code",
-      "norm_label": "productgrid()",
-      "source_file": "src/components/catalog/ProductGrid.jsx",
-      "source_location": "L3"
+      "norm_label": "dealershipintro()",
+      "source_file": "src/components/landing3d/DealershipIntro.jsx",
+      "source_location": "L6"
     },
     {
-      "id": "src_components_catalog_whatsappcta_whatsappcta",
-      "label": "WhatsappCTA()",
+      "id": "src_components_landing3d_dealershipvideo_cinematicasset",
+      "label": "cinematicAsset()",
       "_callable": true,
       "_origin": "ast",
       "community": 2,
       "community_name": "react",
       "file_type": "code",
-      "norm_label": "whatsappcta()",
-      "source_file": "src/components/catalog/WhatsappCTA.jsx",
-      "source_location": "L3"
+      "norm_label": "cinematicasset()",
+      "source_file": "src/components/landing3d/DealershipVideo.jsx",
+      "source_location": "L4"
+    },
+    {
+      "id": "src_components_landing3d_dealershipvideo_dealershipvideo",
+      "label": "DealershipVideo()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "react",
+      "file_type": "code",
+      "norm_label": "dealershipvideo()",
+      "source_file": "src/components/landing3d/DealershipVideo.jsx",
+      "source_location": "L6"
     },
     {
       "id": "src_components_layout_layout_layout",
@@ -184,28 +184,28 @@
       "source_location": "L2"
     },
     {
-      "id": "src_context_inquirycontext_inquiryprovider",
-      "label": "InquiryProvider()",
+      "id": "src_hooks_usescrollreveal_clamp",
+      "label": "clamp()",
       "_callable": true,
       "_origin": "ast",
       "community": 2,
       "community_name": "react",
       "file_type": "code",
-      "norm_label": "inquiryprovider()",
-      "source_file": "src/context/InquiryContext.jsx",
+      "norm_label": "clamp()",
+      "source_file": "src/hooks/useScrollReveal.js",
       "source_location": "L3"
     },
     {
-      "id": "src_context_inquirycontext_useinquiry",
-      "label": "useInquiry()",
+      "id": "src_hooks_usescrollreveal_usescrollreveal",
+      "label": "useScrollReveal()",
       "_callable": true,
       "_origin": "ast",
       "community": 2,
       "community_name": "react",
       "file_type": "code",
-      "norm_label": "useinquiry()",
-      "source_file": "src/context/InquiryContext.jsx",
-      "source_location": "L4"
+      "norm_label": "usescrollreveal()",
+      "source_file": "src/hooks/useScrollReveal.js",
+      "source_location": "L5"
     },
     {
       "id": "src_pages_home_home",
@@ -217,75 +217,15 @@
       "file_type": "code",
       "norm_label": "home()",
       "source_file": "src/pages/Home.jsx",
-      "source_location": "L7"
-    },
-    {
-      "id": "scripts_generateproducts_key",
-      "label": "key()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "generateProducts.cjs",
-      "file_type": "code",
-      "norm_label": "key()",
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L11"
-    },
-    {
-      "id": "scripts_generateproducts_text",
-      "label": "text()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "generateProducts.cjs",
-      "file_type": "code",
-      "norm_label": "text()",
-      "source_file": "scripts/generateProducts.cjs",
       "source_location": "L10"
-    },
-    {
-      "id": "src_components_landing3d_dealershipintro_dealershipintro",
-      "label": "DealershipIntro()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "DealershipIntro.jsx",
-      "file_type": "code",
-      "norm_label": "dealershipintro()",
-      "source_file": "src/components/landing3d/DealershipIntro.jsx",
-      "source_location": "L6"
-    },
-    {
-      "id": "src_components_landing3d_dealershipvideo_cinematicasset",
-      "label": "cinematicAsset()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "DealershipIntro.jsx",
-      "file_type": "code",
-      "norm_label": "cinematicasset()",
-      "source_file": "src/components/landing3d/DealershipVideo.jsx",
-      "source_location": "L4"
-    },
-    {
-      "id": "src_components_landing3d_dealershipvideo_dealershipvideo",
-      "label": "DealershipVideo()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 7,
-      "community_name": "DealershipIntro.jsx",
-      "file_type": "code",
-      "norm_label": "dealershipvideo()",
-      "source_file": "src/components/landing3d/DealershipVideo.jsx",
-      "source_location": "L6"
     },
     {
       "id": "vite_config_configureserver",
       "label": "configureServer()",
       "_callable": true,
       "_origin": "ast",
-      "community": 9,
-      "community_name": "vite.config.js",
+      "community": 3,
+      "community_name": "package.json",
       "file_type": "code",
       "norm_label": "configureserver()",
       "source_file": "vite.config.js",
@@ -296,12 +236,72 @@
       "label": "manualChunks()",
       "_callable": true,
       "_origin": "ast",
-      "community": 9,
-      "community_name": "vite.config.js",
+      "community": 3,
+      "community_name": "package.json",
       "file_type": "code",
       "norm_label": "manualchunks()",
       "source_file": "vite.config.js",
       "source_location": "L33"
+    },
+    {
+      "id": "scripts_export_sky_chunk",
+      "label": "chunk()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "export-sky.mjs",
+      "file_type": "code",
+      "norm_label": "chunk()",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L53"
+    },
+    {
+      "id": "scripts_export_sky_crc32",
+      "label": "crc32()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "export-sky.mjs",
+      "file_type": "code",
+      "norm_label": "crc32()",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L45"
+    },
+    {
+      "id": "scripts_export_sky_displaycolor",
+      "label": "displayColor()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "export-sky.mjs",
+      "file_type": "code",
+      "norm_label": "displaycolor()",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L16"
+    },
+    {
+      "id": "scripts_export_sky_multiply",
+      "label": "multiply()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "export-sky.mjs",
+      "file_type": "code",
+      "norm_label": "multiply()",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L15"
+    },
+    {
+      "id": "scripts_export_sky_sample",
+      "label": "sample()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "export-sky.mjs",
+      "file_type": "code",
+      "norm_label": "sample()",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L24"
     },
     {
       "id": "scripts_render_cinematic",
@@ -436,6 +436,18 @@
       "source_location": "L11"
     },
     {
+      "id": "cinematica",
+      "label": "CINEMATICA.md",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "render-cinematic.cjs",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "cinematica.md",
+      "source_file": "CINEMATICA.md",
+      "source_location": "L1"
+    },
+    {
       "id": "src_components_landing3d_cinematiceffects",
       "label": "CinematicEffects.jsx",
       "_origin": "ast",
@@ -532,7 +544,7 @@
       "file_type": "concept",
       "norm_label": "@react-three/fiber",
       "source_file": "package.json",
-      "source_location": "L14"
+      "source_location": "L13"
     },
     {
       "id": "src_app",
@@ -546,36 +558,36 @@
       "source_location": "L1"
     },
     {
-      "id": "src_components_catalog_productcard",
-      "label": "ProductCard.jsx",
+      "id": "src_components_landing3d_dealershipintro",
+      "label": "DealershipIntro.jsx",
       "_origin": "ast",
       "community": 2,
       "community_name": "react",
       "file_type": "code",
-      "norm_label": "productcard.jsx",
-      "source_file": "src/components/catalog/ProductCard.jsx",
+      "norm_label": "dealershipintro.jsx",
+      "source_file": "src/components/landing3d/DealershipIntro.jsx",
       "source_location": "L1"
     },
     {
-      "id": "src_components_catalog_productgrid",
-      "label": "ProductGrid.jsx",
+      "id": "src_components_landing3d_dealershipintro_chapters",
+      "label": "chapters",
       "_origin": "ast",
       "community": 2,
       "community_name": "react",
       "file_type": "code",
-      "norm_label": "productgrid.jsx",
-      "source_file": "src/components/catalog/ProductGrid.jsx",
-      "source_location": "L1"
+      "norm_label": "chapters",
+      "source_file": "src/components/landing3d/DealershipIntro.jsx",
+      "source_location": "L4"
     },
     {
-      "id": "src_components_catalog_whatsappcta",
-      "label": "WhatsappCTA.jsx",
+      "id": "src_components_landing3d_dealershipvideo",
+      "label": "DealershipVideo.jsx",
       "_origin": "ast",
       "community": 2,
       "community_name": "react",
       "file_type": "code",
-      "norm_label": "whatsappcta.jsx",
-      "source_file": "src/components/catalog/WhatsappCTA.jsx",
+      "norm_label": "dealershipvideo.jsx",
+      "source_file": "src/components/landing3d/DealershipVideo.jsx",
       "source_location": "L1"
     },
     {
@@ -590,59 +602,15 @@
       "source_location": "L1"
     },
     {
-      "id": "src_context_inquirycontext",
-      "label": "InquiryContext.jsx",
+      "id": "src_hooks_usescrollreveal",
+      "label": "useScrollReveal.js",
       "_origin": "ast",
       "community": 2,
       "community_name": "react",
       "file_type": "code",
-      "norm_label": "inquirycontext.jsx",
-      "source_file": "src/context/InquiryContext.jsx",
+      "norm_label": "usescrollreveal.js",
+      "source_file": "src/hooks/useScrollReveal.js",
       "source_location": "L1"
-    },
-    {
-      "id": "src_context_inquirycontext_inquirycontext",
-      "label": "InquiryContext",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "inquirycontext",
-      "source_file": "src/context/InquiryContext.jsx",
-      "source_location": "L2"
-    },
-    {
-      "id": "src_data_products_generated",
-      "label": "products.generated.js",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "products.generated.js",
-      "source_file": "src/data/products.generated.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_data_products_generated_products",
-      "label": "products",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "products",
-      "source_file": "src/data/products.generated.js",
-      "source_location": "L137"
-    },
-    {
-      "id": "src_data_products_generated_productvariants",
-      "label": "productVariants",
-      "_origin": "ast",
-      "community": 2,
-      "community_name": "react",
-      "file_type": "code",
-      "norm_label": "productvariants",
-      "source_file": "src/data/products.generated.js",
-      "source_location": "L2"
     },
     {
       "id": "src_main",
@@ -675,7 +643,7 @@
       "file_type": "concept",
       "norm_label": "react",
       "source_file": "package.json",
-      "source_location": "L15"
+      "source_location": "L14"
     },
     {
       "id": "index_colorosso_automotores",
@@ -700,72 +668,6 @@
       "source_location": "L1"
     },
     {
-      "id": "package_dependencies",
-      "label": "dependencies",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "dependencies",
-      "source_file": "package.json",
-      "source_location": "L12"
-    },
-    {
-      "id": "package_dependencies_react",
-      "label": "react",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "react",
-      "source_file": "package.json",
-      "source_location": "L15"
-    },
-    {
-      "id": "package_dependencies_react_dom",
-      "label": "react-dom",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "react-dom",
-      "source_file": "package.json",
-      "source_location": "L16"
-    },
-    {
-      "id": "package_dependencies_react_three_drei",
-      "label": "@react-three/drei",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "@react-three/drei",
-      "source_file": "package.json",
-      "source_location": "L13"
-    },
-    {
-      "id": "package_dependencies_react_three_fiber",
-      "label": "@react-three/fiber",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "@react-three/fiber",
-      "source_file": "package.json",
-      "source_location": "L14"
-    },
-    {
-      "id": "package_dependencies_three",
-      "label": "three",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "three",
-      "source_file": "package.json",
-      "source_location": "L17"
-    },
-    {
       "id": "package_devdependencies",
       "label": "devDependencies",
       "_origin": "ast",
@@ -774,7 +676,7 @@
       "file_type": "code",
       "norm_label": "devdependencies",
       "source_file": "package.json",
-      "source_location": "L19"
+      "source_location": "L18"
     },
     {
       "id": "package_devdependencies_vite",
@@ -785,18 +687,7 @@
       "file_type": "code",
       "norm_label": "vite",
       "source_file": "package.json",
-      "source_location": "L20"
-    },
-    {
-      "id": "package_devdependencies_xlsx",
-      "label": "xlsx",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "xlsx",
-      "source_file": "package.json",
-      "source_location": "L21"
+      "source_location": "L19"
     },
     {
       "id": "package_name",
@@ -854,17 +745,6 @@
       "source_location": "L7"
     },
     {
-      "id": "package_scripts_generate_catalog",
-      "label": "generate:catalog",
-      "_origin": "ast",
-      "community": 3,
-      "community_name": "package.json",
-      "file_type": "code",
-      "norm_label": "generate:catalog",
-      "source_file": "package.json",
-      "source_location": "L10"
-    },
-    {
       "id": "package_scripts_preview",
       "label": "preview",
       "_origin": "ast",
@@ -898,6 +778,28 @@
       "source_location": "L4"
     },
     {
+      "id": "vite_config",
+      "label": "vite.config.js",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "vite.config.js",
+      "source_file": "vite.config.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "vite_config_renderassets",
+      "label": "renderAssets",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "package.json",
+      "file_type": "code",
+      "norm_label": "renderassets",
+      "source_file": "vite.config.js",
+      "source_location": "L6"
+    },
+    {
       "id": "ref_react_dom",
       "label": "react-dom",
       "_origin": "ast",
@@ -906,7 +808,7 @@
       "file_type": "concept",
       "norm_label": "react-dom",
       "source_file": "package.json",
-      "source_location": "L16"
+      "source_location": "L15"
     },
     {
       "id": "ref_react_three_drei",
@@ -917,7 +819,7 @@
       "file_type": "concept",
       "norm_label": "@react-three/drei",
       "source_file": "package.json",
-      "source_location": "L13"
+      "source_location": "L12"
     },
     {
       "id": "ref_three",
@@ -928,244 +830,183 @@
       "file_type": "concept",
       "norm_label": "three",
       "source_file": "package.json",
-      "source_location": "L17"
+      "source_location": "L16"
     },
     {
-      "id": "cinematica",
-      "label": "CINEMATICA.md",
+      "id": "ref_vite",
+      "label": "vite",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "package.json",
+      "file_type": "concept",
+      "norm_label": "vite",
+      "source_file": "package.json",
+      "source_location": "L19"
+    },
+    {
+      "id": "scripts_export_sky",
+      "label": "export-sky.mjs",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Colorosso Automotores",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "cinematica.md",
-      "source_file": "CINEMATICA.md",
+      "community_name": "export-sky.mjs",
+      "file_type": "code",
+      "norm_label": "export-sky.mjs",
+      "source_file": "scripts/export-sky.mjs",
       "source_location": "L1"
     },
     {
-      "id": "readme",
-      "label": "README.md",
+      "id": "scripts_export_sky_fov",
+      "label": "fov",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Colorosso Automotores",
-      "file_type": "document",
-      "node_kind": "page",
-      "norm_label": "readme.md",
-      "source_file": "README.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "readme_cat\u00e1logo",
-      "label": "Cat\u00e1logo",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Colorosso Automotores",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "catalogo",
-      "source_file": "README.md",
-      "source_location": "L26"
-    },
-    {
-      "id": "readme_colorosso_automotores",
-      "label": "Colorosso Automotores",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Colorosso Automotores",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "colorosso automotores",
-      "source_file": "README.md",
-      "source_location": "L1"
-    },
-    {
-      "id": "readme_compilaci\u00f3n_y_publicaci\u00f3n",
-      "label": "Compilaci\u00f3n y publicaci\u00f3n",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Colorosso Automotores",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "compilacion y publicacion",
-      "source_file": "README.md",
+      "community_name": "export-sky.mjs",
+      "file_type": "code",
+      "norm_label": "fov",
+      "source_file": "scripts/export-sky.mjs",
       "source_location": "L12"
     },
     {
-      "id": "readme_desarrollo",
-      "label": "Desarrollo",
+      "id": "scripts_export_sky_hdr",
+      "label": "hdr",
       "_origin": "ast",
       "community": 4,
-      "community_name": "Colorosso Automotores",
-      "file_type": "document",
-      "node_kind": "heading",
-      "norm_label": "desarrollo",
-      "source_file": "README.md",
-      "source_location": "L5"
+      "community_name": "export-sky.mjs",
+      "file_type": "code",
+      "norm_label": "hdr",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L8"
     },
     {
-      "id": "scripts_generateproducts",
-      "label": "generateProducts.cjs",
+      "id": "scripts_export_sky_header",
+      "label": "header",
       "_origin": "ast",
-      "community": 5,
-      "community_name": "generateProducts.cjs",
+      "community": 4,
+      "community_name": "export-sky.mjs",
       "file_type": "code",
-      "norm_label": "generateproducts.cjs",
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L1"
+      "norm_label": "header",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L58"
     },
     {
-      "id": "scripts_generateproducts_book",
-      "label": "book",
+      "id": "scripts_export_sky_input",
+      "label": "input",
       "_origin": "ast",
-      "community": 5,
-      "community_name": "generateProducts.cjs",
+      "community": 4,
+      "community_name": "export-sky.mjs",
       "file_type": "code",
-      "norm_label": "book",
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L7"
-    },
-    {
-      "id": "scripts_generateproducts_families",
-      "label": "families",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "generateProducts.cjs",
-      "file_type": "code",
-      "norm_label": "families",
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L31"
-    },
-    {
-      "id": "scripts_generateproducts_fs",
-      "label": "fs",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "generateProducts.cjs",
-      "file_type": "code",
-      "norm_label": "fs",
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L1"
-    },
-    {
-      "id": "scripts_generateproducts_output",
-      "label": "output",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "generateProducts.cjs",
-      "file_type": "code",
-      "norm_label": "output",
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L5"
-    },
-    {
-      "id": "scripts_generateproducts_path",
-      "label": "path",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "generateProducts.cjs",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L2"
-    },
-    {
-      "id": "scripts_generateproducts_required",
-      "label": "required",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "generateProducts.cjs",
-      "file_type": "code",
-      "norm_label": "required",
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L12"
-    },
-    {
-      "id": "scripts_generateproducts_rows",
-      "label": "rows",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "generateProducts.cjs",
-      "file_type": "code",
-      "norm_label": "rows",
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L9"
-    },
-    {
-      "id": "scripts_generateproducts_slugs",
-      "label": "slugs",
-      "_origin": "ast",
-      "community": 5,
-      "community_name": "generateProducts.cjs",
-      "file_type": "code",
-      "norm_label": "slugs",
-      "source_file": "scripts/generateProducts.cjs",
+      "norm_label": "input",
+      "source_file": "scripts/export-sky.mjs",
       "source_location": "L13"
     },
     {
-      "id": "scripts_generateproducts_variants",
-      "label": "variants",
+      "id": "scripts_export_sky_output",
+      "label": "output",
       "_origin": "ast",
-      "community": 5,
-      "community_name": "generateProducts.cjs",
+      "community": 4,
+      "community_name": "export-sky.mjs",
       "file_type": "code",
-      "norm_label": "variants",
-      "source_file": "scripts/generateProducts.cjs",
+      "norm_label": "output",
+      "source_file": "scripts/export-sky.mjs",
       "source_location": "L14"
     },
     {
-      "id": "scripts_generateproducts_xlsx",
-      "label": "XLSX",
+      "id": "scripts_export_sky_pixels",
+      "label": "pixels",
       "_origin": "ast",
-      "community": 5,
-      "community_name": "generateProducts.cjs",
+      "community": 4,
+      "community_name": "export-sky.mjs",
       "file_type": "code",
-      "norm_label": "xlsx",
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L3"
+      "norm_label": "pixels",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L10"
     },
     {
-      "id": "ref_xlsx",
-      "label": "xlsx",
+      "id": "scripts_export_sky_png",
+      "label": "png",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "export-sky.mjs",
+      "file_type": "code",
+      "norm_label": "png",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L60"
+    },
+    {
+      "id": "scripts_export_sky_source",
+      "label": "source",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "export-sky.mjs",
+      "file_type": "code",
+      "norm_label": "source",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L7"
+    },
+    {
+      "id": "package_dependencies",
+      "label": "dependencies",
       "_origin": "ast",
       "community": 5,
-      "community_name": "generateProducts.cjs",
-      "file_type": "concept",
-      "norm_label": "xlsx",
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "dependencies",
       "source_file": "package.json",
-      "source_location": "L21"
+      "source_location": "L11"
     },
     {
-      "id": "src_components_landing3d_dealershipintro",
-      "label": "DealershipIntro.jsx",
+      "id": "package_dependencies_react",
+      "label": "react",
       "_origin": "ast",
-      "community": 7,
-      "community_name": "DealershipIntro.jsx",
+      "community": 5,
+      "community_name": "dependencies",
       "file_type": "code",
-      "norm_label": "dealershipintro.jsx",
-      "source_file": "src/components/landing3d/DealershipIntro.jsx",
-      "source_location": "L1"
+      "norm_label": "react",
+      "source_file": "package.json",
+      "source_location": "L14"
     },
     {
-      "id": "src_components_landing3d_dealershipintro_chapters",
-      "label": "chapters",
+      "id": "package_dependencies_react_dom",
+      "label": "react-dom",
       "_origin": "ast",
-      "community": 7,
-      "community_name": "DealershipIntro.jsx",
+      "community": 5,
+      "community_name": "dependencies",
       "file_type": "code",
-      "norm_label": "chapters",
-      "source_file": "src/components/landing3d/DealershipIntro.jsx",
-      "source_location": "L4"
+      "norm_label": "react-dom",
+      "source_file": "package.json",
+      "source_location": "L15"
     },
     {
-      "id": "src_components_landing3d_dealershipvideo",
-      "label": "DealershipVideo.jsx",
+      "id": "package_dependencies_react_three_drei",
+      "label": "@react-three/drei",
       "_origin": "ast",
-      "community": 7,
-      "community_name": "DealershipIntro.jsx",
+      "community": 5,
+      "community_name": "dependencies",
       "file_type": "code",
-      "norm_label": "dealershipvideo.jsx",
-      "source_file": "src/components/landing3d/DealershipVideo.jsx",
-      "source_location": "L1"
+      "norm_label": "@react-three/drei",
+      "source_file": "package.json",
+      "source_location": "L12"
+    },
+    {
+      "id": "package_dependencies_react_three_fiber",
+      "label": "@react-three/fiber",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "@react-three/fiber",
+      "source_file": "package.json",
+      "source_location": "L13"
+    },
+    {
+      "id": "package_dependencies_three",
+      "label": "three",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "dependencies",
+      "file_type": "code",
+      "norm_label": "three",
+      "source_file": "package.json",
+      "source_location": "L16"
     },
     {
       "id": "vercel",
@@ -1234,65 +1075,10 @@
       "source_location": "L2"
     },
     {
-      "id": "vite_config",
-      "label": "vite.config.js",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "vite.config.js",
-      "file_type": "code",
-      "norm_label": "vite.config.js",
-      "source_file": "vite.config.js",
-      "source_location": "L1"
-    },
-    {
-      "id": "vite_config_renderassets",
-      "label": "renderAssets",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "vite.config.js",
-      "file_type": "code",
-      "norm_label": "renderassets",
-      "source_file": "vite.config.js",
-      "source_location": "L6"
-    },
-    {
-      "id": "ref_vite",
-      "label": "vite",
-      "_origin": "ast",
-      "community": 9,
-      "community_name": "vite.config.js",
-      "file_type": "concept",
-      "norm_label": "vite",
-      "source_file": "package.json",
-      "source_location": "L20"
-    },
-    {
-      "id": "src_styles_components_buttons",
-      "label": "buttons.css",
-      "_origin": "css_import_scan",
-      "community": 6,
-      "community_name": "index.css",
-      "file_type": "code",
-      "norm_label": "buttons.css",
-      "source_file": "src/styles/components/buttons.css",
-      "source_location": "L1"
-    },
-    {
-      "id": "src_styles_components_catalog",
-      "label": "catalog.css",
-      "_origin": "css_import_scan",
-      "community": 6,
-      "community_name": "index.css",
-      "file_type": "code",
-      "norm_label": "catalog.css",
-      "source_file": "src/styles/components/catalog.css",
-      "source_location": "L1"
-    },
-    {
       "id": "src_styles_foundation_base",
       "label": "base.css",
       "_origin": "css_import_scan",
-      "community": 6,
+      "community": 7,
       "community_name": "index.css",
       "file_type": "code",
       "norm_label": "base.css",
@@ -1303,7 +1089,7 @@
       "id": "src_styles_foundation_tokens",
       "label": "tokens.css",
       "_origin": "css_import_scan",
-      "community": 6,
+      "community": 7,
       "community_name": "index.css",
       "file_type": "code",
       "norm_label": "tokens.css",
@@ -1314,7 +1100,7 @@
       "id": "src_styles_index",
       "label": "index.css",
       "_origin": "css_import_scan",
-      "community": 6,
+      "community": 7,
       "community_name": "index.css",
       "file_type": "code",
       "norm_label": "index.css",
@@ -1325,7 +1111,7 @@
       "id": "src_styles_layout_site_shell",
       "label": "site-shell.css",
       "_origin": "css_import_scan",
-      "community": 6,
+      "community": 7,
       "community_name": "index.css",
       "file_type": "code",
       "norm_label": "site-shell.css",
@@ -1336,7 +1122,7 @@
       "id": "src_styles_pages_home_new",
       "label": "home-new.css",
       "_origin": "css_import_scan",
-      "community": 6,
+      "community": 7,
       "community_name": "index.css",
       "file_type": "code",
       "norm_label": "home-new.css",
@@ -1725,217 +1511,6 @@
       "source_url": null
     },
     {
-      "id": "readme_blend",
-      "label": "assets/3d/colorosso-facade-v4.blend: \u00fanico proyecto con texturas incorporadas",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 4,
-      "community_name": "Colorosso Automotores",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "assets/3d/colorosso-facade-v4.blend: unico proyecto con texturas incorporadas",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "readme_catalog",
-      "label": "public/catalogo.xlsx",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 4,
-      "community_name": "Colorosso Automotores",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "public/catalogo.xlsx",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "readme_generate_catalog",
-      "label": "npm run generate:catalog",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 4,
-      "community_name": "Colorosso Automotores",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "npm run generate:catalog",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "readme_github",
-      "label": "GitHub: rama limpia para importar en Vercel",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 4,
-      "community_name": "Colorosso Automotores",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "github: rama limpia para importar en vercel",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "readme_public",
-      "label": "public: videos terminados y fotograf\u00edas versionados",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 4,
-      "community_name": "Colorosso Automotores",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "public: videos terminados y fotografias versionados",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "readme_react",
-      "label": "React",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 4,
-      "community_name": "Colorosso Automotores",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "react",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "readme_render_source",
-      "label": "assets/render-source: GLB, HDR y piso versionados, solo desarrollo",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 4,
-      "community_name": "Colorosso Automotores",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "assets/render-source: glb, hdr y piso versionados, solo desarrollo",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "readme_vercel",
-      "label": "Vercel: configuraci\u00f3n preparada, sin publicaci\u00f3n autom\u00e1tica",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 4,
-      "community_name": "Colorosso Automotores",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "vercel: configuracion preparada, sin publicacion automatica",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "readme_vite",
-      "label": "Vite",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 4,
-      "community_name": "Colorosso Automotores",
-      "contributor": null,
-      "file_type": "concept",
-      "norm_label": "vite",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "readme_config",
-      "label": "vercel.json: Vite, npm ci, npm run build, dist",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 4,
-      "community_name": "Colorosso Automotores",
-      "contributor": null,
-      "file_type": "document",
-      "norm_label": "vercel.json: vite, npm ci, npm run build, dist",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "readme_gitignore",
-      "label": ".gitignore",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 4,
-      "community_name": "Colorosso Automotores",
-      "contributor": null,
-      "file_type": "document",
-      "norm_label": ".gitignore",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "readme_graph",
-      "label": "graphify-out/graph.html",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 4,
-      "community_name": "Colorosso Automotores",
-      "contributor": null,
-      "file_type": "document",
-      "norm_label": "graphify-out/graph.html",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "readme_vercelignore",
-      "label": ".vercelignore",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 4,
-      "community_name": "Colorosso Automotores",
-      "contributor": null,
-      "file_type": "document",
-      "norm_label": ".vercelignore",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
-      "id": "readme_deployment",
-      "label": "Configuraci\u00f3n de publicaci\u00f3n",
-      "_origin": "semantic",
-      "author": null,
-      "captured_at": null,
-      "community": 4,
-      "community_name": "Colorosso Automotores",
-      "contributor": null,
-      "file_type": "rationale",
-      "norm_label": "configuracion de publicacion",
-      "rationale": "Ra\u00edz del proyecto en . y sin variables de entorno requeridas. No subir node_modules, dist, .tools, entornos Python ni referencias privadas. Limpieza no ejecut\u00f3 build ni pruebas y no publica autom\u00e1ticamente.",
-      "source_file": "README.md",
-      "source_location": null,
-      "source_url": null
-    },
-    {
       "id": "index_root",
       "label": "Contenedor DOM root",
       "_origin": "semantic",
@@ -1945,55 +1520,119 @@
       "norm_label": "contenedor dom root",
       "source_file": "index.html",
       "source_location": null
+    },
+    {
+      "id": "styles_dealership",
+      "label": "dealership.css: composici\u00f3n abierta, responsive y animaciones",
+      "_origin": "semantic",
+      "community": 6,
+      "community_name": "Landing institucional Colorosso Automotores",
+      "file_type": "code",
+      "norm_label": "dealership.css: composicion abierta, responsive y animaciones",
+      "source_file": "src/styles/pages/dealership.css",
+      "source_location": "L1"
+    },
+    {
+      "id": "readme",
+      "label": "Landing institucional Colorosso Automotores",
+      "_origin": "semantic",
+      "community": 6,
+      "community_name": "Landing institucional Colorosso Automotores",
+      "file_type": "document",
+      "norm_label": "landing institucional colorosso automotores",
+      "source_file": "README.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "readme_deploy",
+      "label": "Publicaci\u00f3n Vite en Vercel",
+      "_origin": "semantic",
+      "community": 6,
+      "community_name": "Landing institucional Colorosso Automotores",
+      "file_type": "document",
+      "norm_label": "publicacion vite en vercel",
+      "source_file": "README.md",
+      "source_location": "L18"
+    },
+    {
+      "id": "readme_landing",
+      "label": "Bienvenida, historia, contacto y pie de p\u00e1gina",
+      "_origin": "semantic",
+      "community": 6,
+      "community_name": "Landing institucional Colorosso Automotores",
+      "file_type": "document",
+      "norm_label": "bienvenida, historia, contacto y pie de pagina",
+      "source_file": "README.md",
+      "source_location": "L28"
+    },
+    {
+      "id": "readme_photo",
+      "label": "Fotograf\u00eda real y fotograf\u00eda hist\u00f3rica pendiente",
+      "_origin": "semantic",
+      "community": 6,
+      "community_name": "Landing institucional Colorosso Automotores",
+      "file_type": "document",
+      "norm_label": "fotografia real y fotografia historica pendiente",
+      "source_file": "README.md",
+      "source_location": "L32"
+    },
+    {
+      "id": "readme_scope",
+      "label": "Alcance del mapa: c\u00f3digo y documentaci\u00f3n t\u00e9cnica",
+      "_origin": "semantic",
+      "community": 6,
+      "community_name": "Landing institucional Colorosso Automotores",
+      "file_type": "document",
+      "norm_label": "alcance del mapa: codigo y documentacion tecnica",
+      "source_file": "README.md",
+      "source_location": "L40"
+    },
+    {
+      "id": "readme_scroll",
+      "label": "Lectura progresiva y movimiento reducido",
+      "_origin": "semantic",
+      "community": 6,
+      "community_name": "Landing institucional Colorosso Automotores",
+      "file_type": "document",
+      "norm_label": "lectura progresiva y movimiento reducido",
+      "source_file": "README.md",
+      "source_location": "L30"
+    },
+    {
+      "id": "readme_sky_background",
+      "label": "Cielo HDR: nubes bajas, sombras grises y textos claros",
+      "_origin": "semantic",
+      "community": 6,
+      "community_name": "Landing institucional Colorosso Automotores",
+      "file_type": "document",
+      "norm_label": "cielo hdr: nubes bajas, sombras grises y textos claros",
+      "source_file": "README.md",
+      "source_location": "L46"
     }
   ],
   "links": [
     {
-      "source": "scripts_generateproducts_key",
-      "target": "scripts_generateproducts_text",
+      "source": "scripts_export_sky_chunk",
+      "target": "scripts_export_sky_crc32",
       "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "call",
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L11",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L55",
       "weight": 1.0
     },
     {
-      "source": "scripts_generateproducts_variants",
-      "target": "scripts_generateproducts_key",
+      "source": "scripts_export_sky_displaycolor",
+      "target": "scripts_export_sky_multiply",
       "relation": "calls",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "call",
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L14",
-      "weight": 1.0
-    },
-    {
-      "source": "scripts_generateproducts_variants",
-      "target": "scripts_generateproducts_text",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L15",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_catalog_whatsappcta_whatsappcta",
-      "target": "src_context_inquirycontext_useinquiry",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "src/components/catalog/WhatsappCTA.jsx",
-      "source_location": "L3",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L17",
       "weight": 1.0
     },
     {
@@ -2033,6 +1672,30 @@
       "weight": 1.0
     },
     {
+      "source": "src_hooks_usescrollreveal_usescrollreveal",
+      "target": "src_hooks_usescrollreveal_clamp",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/hooks/useScrollReveal.js",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "src_pages_home_home",
+      "target": "src_hooks_usescrollreveal_usescrollreveal",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/pages/Home.jsx",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
       "source": "package",
       "target": "ref_react_three_drei",
       "relation": "imports",
@@ -2041,7 +1704,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -2053,7 +1716,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L14",
+      "source_location": "L13",
       "weight": 1.0
     },
     {
@@ -2065,7 +1728,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L15",
+      "source_location": "L14",
       "weight": 1.0
     },
     {
@@ -2077,7 +1740,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L16",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -2089,7 +1752,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L17",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -2101,31 +1764,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "package.json",
-      "source_location": "L20",
-      "weight": 1.0
-    },
-    {
-      "source": "package",
-      "target": "ref_xlsx",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "package.json",
-      "source_location": "L21",
-      "weight": 1.0
-    },
-    {
-      "source": "src_app",
-      "target": "src_context_inquirycontext_inquiryprovider",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/App.jsx",
-      "source_location": "L2",
+      "source_location": "L19",
       "weight": 1.0
     },
     {
@@ -2137,7 +1776,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "src/App.jsx",
-      "source_location": "L3",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -2149,43 +1788,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "src/App.jsx",
-      "source_location": "L4",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_catalog_productcard",
-      "target": "src_components_catalog_whatsappcta_whatsappcta",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/components/catalog/ProductCard.jsx",
-      "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_catalog_productgrid",
-      "target": "src_components_catalog_productcard_productcard",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/components/catalog/ProductGrid.jsx",
-      "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_catalog_whatsappcta",
-      "target": "src_context_inquirycontext_useinquiry",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/components/catalog/WhatsappCTA.jsx",
-      "source_location": "L2",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -2262,7 +1865,7 @@
     },
     {
       "source": "src_pages_home",
-      "target": "src_data_products_generated_products",
+      "target": "src_components_landing3d_dealershipintro_dealershipintro",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -2274,7 +1877,7 @@
     },
     {
       "source": "src_pages_home",
-      "target": "src_components_catalog_productgrid_productgrid",
+      "target": "src_hooks_usescrollreveal_usescrollreveal",
       "relation": "imports",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -2282,30 +1885,6 @@
       "context": "import",
       "source_file": "src/pages/Home.jsx",
       "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_home",
-      "target": "src_components_catalog_whatsappcta_whatsappcta",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/Home.jsx",
-      "source_location": "L4",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_home",
-      "target": "src_components_landing3d_dealershipintro_dealershipintro",
-      "relation": "imports",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/Home.jsx",
-      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -2321,14 +1900,14 @@
       "weight": 1.0
     },
     {
-      "source": "scripts_generateproducts",
-      "target": "ref_xlsx",
+      "source": "scripts_export_sky",
+      "target": "ref_three",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "import",
-      "source_file": "scripts/generateProducts.cjs",
+      "source_file": "scripts/export-sky.mjs",
       "source_location": "L3",
       "weight": 1.0
     },
@@ -2342,18 +1921,6 @@
       "context": "import",
       "source_file": "src/App.jsx",
       "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "src_app",
-      "target": "src_context_inquirycontext",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/App.jsx",
-      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -2365,7 +1932,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "src/App.jsx",
-      "source_location": "L3",
+      "source_location": "L2",
       "weight": 1.0
     },
     {
@@ -2377,79 +1944,7 @@
       "confidence_score": 1.0,
       "context": "import",
       "source_file": "src/App.jsx",
-      "source_location": "L4",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_catalog_productcard",
-      "target": "ref_react",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/components/catalog/ProductCard.jsx",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_catalog_productcard",
-      "target": "src_components_catalog_whatsappcta",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/components/catalog/ProductCard.jsx",
-      "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_catalog_productgrid",
-      "target": "ref_react",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/components/catalog/ProductGrid.jsx",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_catalog_productgrid",
-      "target": "src_components_catalog_productcard",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/components/catalog/ProductGrid.jsx",
-      "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_catalog_whatsappcta",
-      "target": "ref_react",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/components/catalog/WhatsappCTA.jsx",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_catalog_whatsappcta",
-      "target": "src_context_inquirycontext",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/components/catalog/WhatsappCTA.jsx",
-      "source_location": "L2",
+      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -2609,14 +2104,14 @@
       "weight": 1.0
     },
     {
-      "source": "src_context_inquirycontext",
+      "source": "src_hooks_usescrollreveal",
       "target": "ref_react",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "context": "import",
-      "source_file": "src/context/InquiryContext.jsx",
+      "source_file": "src/hooks/useScrollReveal.js",
       "source_location": "L1",
       "weight": 1.0
     },
@@ -2670,7 +2165,7 @@
     },
     {
       "source": "src_pages_home",
-      "target": "src_data_products_generated",
+      "target": "src_components_landing3d_dealershipintro",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -2682,7 +2177,7 @@
     },
     {
       "source": "src_pages_home",
-      "target": "src_components_catalog_productgrid",
+      "target": "src_hooks_usescrollreveal",
       "relation": "imports_from",
       "_origin": "ast",
       "confidence": "EXTRACTED",
@@ -2690,30 +2185,6 @@
       "context": "import",
       "source_file": "src/pages/Home.jsx",
       "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_home",
-      "target": "src_components_catalog_whatsappcta",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/Home.jsx",
-      "source_location": "L4",
-      "weight": 1.0
-    },
-    {
-      "source": "src_pages_home",
-      "target": "src_components_landing3d_dealershipintro",
-      "relation": "imports_from",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "import",
-      "source_file": "src/pages/Home.jsx",
-      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -2760,7 +2231,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L12",
+      "source_location": "L11",
       "weight": 1.0
     },
     {
@@ -2771,7 +2242,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L19",
+      "source_location": "L18",
       "weight": 1.0
     },
     {
@@ -2837,7 +2308,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0
     },
     {
@@ -2848,7 +2319,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L14",
+      "source_location": "L13",
       "weight": 1.0
     },
     {
@@ -2859,7 +2330,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L15",
+      "source_location": "L14",
       "weight": 1.0
     },
     {
@@ -2870,7 +2341,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L16",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
@@ -2881,7 +2352,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L17",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
@@ -2892,29 +2363,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "package.json",
-      "source_location": "L20",
-      "weight": 1.0
-    },
-    {
-      "source": "package_devdependencies",
-      "target": "package_devdependencies_xlsx",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "package.json",
-      "source_location": "L21",
-      "weight": 1.0
-    },
-    {
-      "source": "package_scripts",
-      "target": "package_scripts_generate_catalog",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "package.json",
-      "source_location": "L10",
+      "source_location": "L19",
       "weight": 1.0
     },
     {
@@ -2951,179 +2400,146 @@
       "weight": 1.0
     },
     {
-      "source": "readme",
-      "target": "readme_colorosso_automotores",
+      "source": "scripts_export_sky",
+      "target": "scripts_export_sky_pixels",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "readme_colorosso_automotores",
-      "target": "readme_compilaci\u00f3n_y_publicaci\u00f3n",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L12",
-      "weight": 1.0
-    },
-    {
-      "source": "readme_colorosso_automotores",
-      "target": "readme_cat\u00e1logo",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L26",
-      "weight": 1.0
-    },
-    {
-      "source": "readme_colorosso_automotores",
-      "target": "readme_desarrollo",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "scripts_generateproducts",
-      "target": "scripts_generateproducts_fs",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L1",
-      "weight": 1.0
-    },
-    {
-      "source": "scripts_generateproducts",
-      "target": "scripts_generateproducts_text",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scripts/generateProducts.cjs",
+      "source_file": "scripts/export-sky.mjs",
       "source_location": "L10",
       "weight": 1.0
     },
     {
-      "source": "scripts_generateproducts",
-      "target": "scripts_generateproducts_key",
+      "source": "scripts_export_sky",
+      "target": "scripts_export_sky_fov",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L11",
-      "weight": 1.0
-    },
-    {
-      "source": "scripts_generateproducts",
-      "target": "scripts_generateproducts_required",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "scripts/generateProducts.cjs",
+      "source_file": "scripts/export-sky.mjs",
       "source_location": "L12",
       "weight": 1.0
     },
     {
-      "source": "scripts_generateproducts",
-      "target": "scripts_generateproducts_slugs",
+      "source": "scripts_export_sky",
+      "target": "scripts_export_sky_input",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "scripts/generateProducts.cjs",
+      "source_file": "scripts/export-sky.mjs",
       "source_location": "L13",
       "weight": 1.0
     },
     {
-      "source": "scripts_generateproducts",
-      "target": "scripts_generateproducts_variants",
+      "source": "scripts_export_sky",
+      "target": "scripts_export_sky_output",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "scripts/generateProducts.cjs",
+      "source_file": "scripts/export-sky.mjs",
       "source_location": "L14",
       "weight": 1.0
     },
     {
-      "source": "scripts_generateproducts",
-      "target": "scripts_generateproducts_path",
+      "source": "scripts_export_sky",
+      "target": "scripts_export_sky_multiply",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L2",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L15",
       "weight": 1.0
     },
     {
-      "source": "scripts_generateproducts",
-      "target": "scripts_generateproducts_xlsx",
+      "source": "scripts_export_sky",
+      "target": "scripts_export_sky_displaycolor",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L3",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L16",
       "weight": 1.0
     },
     {
-      "source": "scripts_generateproducts",
-      "target": "scripts_generateproducts_families",
+      "source": "scripts_export_sky",
+      "target": "scripts_export_sky_sample",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L31",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L24",
       "weight": 1.0
     },
     {
-      "source": "scripts_generateproducts",
-      "target": "scripts_generateproducts_output",
+      "source": "scripts_export_sky",
+      "target": "scripts_export_sky_crc32",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L5",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L45",
       "weight": 1.0
     },
     {
-      "source": "scripts_generateproducts",
-      "target": "scripts_generateproducts_book",
+      "source": "scripts_export_sky",
+      "target": "scripts_export_sky_chunk",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "scripts/generateProducts.cjs",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_export_sky",
+      "target": "scripts_export_sky_header",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_export_sky",
+      "target": "scripts_export_sky_png",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_export_sky",
+      "target": "scripts_export_sky_source",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/export-sky.mjs",
       "source_location": "L7",
       "weight": 1.0
     },
     {
-      "source": "scripts_generateproducts",
-      "target": "scripts_generateproducts_rows",
+      "source": "scripts_export_sky",
+      "target": "scripts_export_sky_hdr",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "scripts/generateProducts.cjs",
-      "source_location": "L9",
+      "source_file": "scripts/export-sky.mjs",
+      "source_location": "L8",
       "weight": 1.0
     },
     {
@@ -3277,40 +2693,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/App.jsx",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_catalog_productcard",
-      "target": "src_components_catalog_productcard_productcard",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components/catalog/ProductCard.jsx",
       "source_location": "L4",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_catalog_productgrid",
-      "target": "src_components_catalog_productgrid_productgrid",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components/catalog/ProductGrid.jsx",
-      "source_location": "L3",
-      "weight": 1.0
-    },
-    {
-      "source": "src_components_catalog_whatsappcta",
-      "target": "src_components_catalog_whatsappcta_whatsappcta",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/components/catalog/WhatsappCTA.jsx",
-      "source_location": "L3",
       "weight": 1.0
     },
     {
@@ -3490,58 +2873,25 @@
       "weight": 1.0
     },
     {
-      "source": "src_context_inquirycontext",
-      "target": "src_context_inquirycontext_inquirycontext",
+      "source": "src_hooks_usescrollreveal",
+      "target": "src_hooks_usescrollreveal_clamp",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "src/context/InquiryContext.jsx",
-      "source_location": "L2",
-      "weight": 1.0
-    },
-    {
-      "source": "src_context_inquirycontext",
-      "target": "src_context_inquirycontext_inquiryprovider",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/context/InquiryContext.jsx",
+      "source_file": "src/hooks/useScrollReveal.js",
       "source_location": "L3",
       "weight": 1.0
     },
     {
-      "source": "src_context_inquirycontext",
-      "target": "src_context_inquirycontext_useinquiry",
+      "source": "src_hooks_usescrollreveal",
+      "target": "src_hooks_usescrollreveal_usescrollreveal",
       "relation": "contains",
       "_origin": "ast",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
-      "source_file": "src/context/InquiryContext.jsx",
-      "source_location": "L4",
-      "weight": 1.0
-    },
-    {
-      "source": "src_data_products_generated",
-      "target": "src_data_products_generated_products",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/data/products.generated.js",
-      "source_location": "L137",
-      "weight": 1.0
-    },
-    {
-      "source": "src_data_products_generated",
-      "target": "src_data_products_generated_productvariants",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/data/products.generated.js",
-      "source_location": "L2",
+      "source_file": "src/hooks/useScrollReveal.js",
+      "source_location": "L5",
       "weight": 1.0
     },
     {
@@ -3552,7 +2902,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/pages/Home.jsx",
-      "source_location": "L7",
+      "source_location": "L10",
       "weight": 1.0
     },
     {
@@ -3673,7 +3023,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "README.md",
-      "source_location": "L34",
+      "source_location": "L42",
       "weight": 1.0
     },
     {
@@ -3723,28 +3073,6 @@
     },
     {
       "source": "src_styles_index",
-      "target": "src_styles_components_buttons",
-      "relation": "imports_from",
-      "_origin": "css_import_scan",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/styles/index.css",
-      "source_location": "L5",
-      "weight": 1.0
-    },
-    {
-      "source": "src_styles_index",
-      "target": "src_styles_components_catalog",
-      "relation": "imports_from",
-      "_origin": "css_import_scan",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/styles/index.css",
-      "source_location": "L6",
-      "weight": 1.0
-    },
-    {
-      "source": "src_styles_index",
       "target": "src_styles_pages_home_new",
       "relation": "imports_from",
       "_origin": "css_import_scan",
@@ -3766,6 +3094,116 @@
       "weight": 1.0
     },
     {
+      "source": "readme",
+      "target": "readme_deploy",
+      "relation": "documents",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "readme_landing",
+      "relation": "documents",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "readme_scroll",
+      "relation": "documents",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "readme_photo",
+      "relation": "documents",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "readme_scope",
+      "relation": "documents",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "readme",
+      "target": "readme_sky_background",
+      "relation": "documents",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_landing",
+      "target": "src_pages_home",
+      "relation": "documents",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_landing",
+      "target": "styles_dealership",
+      "relation": "documents",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_scroll",
+      "target": "src_hooks_usescrollreveal",
+      "relation": "documents",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_sky_background",
+      "target": "styles_dealership",
+      "relation": "documents",
+      "_origin": "semantic",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
       "source": "cinematica_vercelignore",
       "target": "cinematica_local_sources",
       "relation": "implements",
@@ -3784,39 +3222,6 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "CINEMATICA.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme_config",
-      "target": "readme_deployment",
-      "relation": "implements",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme_gitignore",
-      "target": "readme_deployment",
-      "relation": "implements",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme_vercelignore",
-      "target": "readme_deployment",
-      "relation": "implements",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
       "source_location": null,
       "weight": 1.0
     },
@@ -4041,149 +3446,6 @@
       "weight": 1.0
     },
     {
-      "source": "readme_colorosso_automotores",
-      "target": "cinematica",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme_colorosso_automotores",
-      "target": "readme_blend",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme_colorosso_automotores",
-      "target": "readme_catalog",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme_colorosso_automotores",
-      "target": "readme_github",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme_colorosso_automotores",
-      "target": "readme_graph",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme_colorosso_automotores",
-      "target": "readme_public",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme_colorosso_automotores",
-      "target": "readme_react",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme_colorosso_automotores",
-      "target": "readme_render_source",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme_colorosso_automotores",
-      "target": "readme_vercel",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme_colorosso_automotores",
-      "target": "readme_vite",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme_generate_catalog",
-      "target": "readme_catalog",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme_vercel",
-      "target": "readme_config",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
-      "source": "readme_vite",
-      "target": "readme_render_source",
-      "relation": "references",
-      "_origin": "semantic",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1.0
-    },
-    {
       "source": "scripts_render_cinematic",
       "target": "cinematica_desktop",
       "relation": "references",
@@ -4371,5 +3633,6 @@
       "weight": 1.0
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "7eb0dfa4578d78f6952c92c53529fab8f36e8b04"
 }

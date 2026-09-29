@@ -99,12 +99,12 @@ export default function DealershipIntro() {
           <p className="eyebrow"><span /> Colorosso Automotores</p>
           <h1>El próximo capítulo<br />empieza <em>acá.</em></h1>
           <p>Vehículos que te mueven.<br />Personas que te acompañan.</p>
-          <a className="cinema-link" href="#unidades">Explorar unidades <span aria-hidden="true">↗</span></a>
+          <a className="cinema-link" href="#bienvenida">Conocé Colorosso <span aria-hidden="true">↗</span></a>
         </div>
         <div className="cinema-arrival cinema-arrival--mustang" inert={!arrivalVisible ? true : undefined}>
           <p className="eyebrow">Ford Mustang</p>
           <h2><em>Dark Horse.</em></h2>
-          <a className="cinema-link" href="#unidades">Ver unidades disponibles <span aria-hidden="true">↗</span></a>
+          <a className="cinema-link" href="#historia">Conocé nuestra historia <span aria-hidden="true">↗</span></a>
         </div>
         <div className="cinema-side-note" aria-hidden="true">COLOROSSO / RECORRIDO</div>
         <div className="cinema-bottom">
@@ -113,11 +113,11 @@ export default function DealershipIntro() {
           </nav> : <span className="cinema-static-label">Bienvenidos a Colorosso</span>}
           <div className="cinema-actions">{failed && <button className="cinema-play" onClick={() => { setReady(false); setFailed(false); }}>Reintentar recorrido</button>}
             {!staticMode && <button className="cinema-play" disabled={!ready} aria-label={playing ? "Pausar recorrido" : "Reproducir recorrido"} aria-pressed={playing} onClick={() => { if (progress.current > 0.98) { progress.current = 0; const el = section.current; window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY, behavior: "instant" }); } setPlaying(!playing); }}><span aria-hidden="true">{playing ? "Ⅱ" : "▷"}</span><span>{playing ? "Pausar" : "Reproducir"}</span></button>}
-            <a className="cinema-skip" href="#unidades" onClick={() => setPlaying(false)}>Ir al catálogo <span aria-hidden="true">↓</span></a>
+            <a className="cinema-skip" href="#bienvenida" onClick={() => setPlaying(false)}>Conocé la concesionaria <span aria-hidden="true">↓</span></a>
           </div>
         </div>
         {!staticMode && <div className="cinema-progress" aria-hidden="true"><span /></div>}
-        <span className="cinema-status" role="status">{failed ? "Recorrido no disponible. Podés explorar las unidades." : !ready && !reducedMotion ? "Preparando el recorrido…" : ""}</span>
+        <span className="cinema-status" role="status">{failed ? "Recorrido no disponible. Podés conocer la concesionaria." : !ready && !reducedMotion ? "Preparando el recorrido…" : ""}</span>
       </div>
     </section>
   );
